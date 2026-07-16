@@ -1,4 +1,4 @@
-package project.Ecommerce.files.Login.Request;
+package project.Ecommerce.files.Register.Request;
 
 public class RegisterRequstSer {
     private String firstName;
@@ -11,7 +11,7 @@ public class RegisterRequstSer {
     private String userPassword;
     private String confirmPassword;
     private boolean required;
-    
+
     public String getFirstName() {
         return firstName;
     }

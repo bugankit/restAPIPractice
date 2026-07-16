@@ -1,4 +1,4 @@
-package project.Ecommerce.files.Login.Response;
+package project.Ecommerce.files.Register.Response;
 
 public class RegisterResponseDeSer {
 

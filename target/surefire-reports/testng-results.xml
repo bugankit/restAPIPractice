@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-16T17:36:32 IST" name="Surefire suite" finished-at="2026-07-16T17:36:33 IST" duration-ms="731">
+  <suite started-at="2026-07-16T23:17:32 IST" name="Surefire suite" finished-at="2026-07-16T23:17:33 IST" duration-ms="1714">
     <groups>
     </groups>
-    <test started-at="2026-07-16T17:36:32 IST" name="Surefire test" finished-at="2026-07-16T17:36:33 IST" duration-ms="731">
-      <class name="project.Ecommerce.test.Register.Register">
-        <test-method signature="validRegister(java.lang.String,java.lang.String)[pri:0, instance:project.Ecommerce.test.Register.Register@525b461a]" started-at="2026-07-16T17:36:32 IST" name="validRegister" description="TC01 Validate Register for application with valid credentials" data-provider="validRegisterData" finished-at="2026-07-16T17:36:33 IST" duration-ms="721" status="PASS">
+    <test started-at="2026-07-16T23:17:32 IST" name="Surefire test" finished-at="2026-07-16T23:17:33 IST" duration-ms="1714">
+      <class name="project.Ecommerce.test.Login.LoginTest">
+        <test-method signature="postLoginValid(java.lang.String,java.lang.String)[pri:0, instance:project.Ecommerce.test.Login.LoginTest@525b461a]" started-at="2026-07-16T23:17:32 IST" name="postLoginValid" description="TC01 Validate Login with correct userid and password" data-provider="validLoginData" finished-at="2026-07-16T23:17:33 IST" duration-ms="1704" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,8 +22,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validRegister -->
-      </class> <!-- project.Ecommerce.test.Register.Register -->
+        </test-method> <!-- postLoginValid -->
+      </class> <!-- project.Ecommerce.test.Login.LoginTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>
