@@ -1,4 +1,4 @@
-package project.FakeStore.testFile;
+package project.FakeStore.testFile.FakeStore;
 
 import static io.restassured.RestAssured.given;
 
@@ -8,8 +8,8 @@ import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
-import project.FakeStore.body.GetDetails;
-import project.FakeStore.body.SetUpResponse;
+import project.FakeStore.body.FakeStore.GetDetails;
+import project.FakeStore.body.FakeStore.SetUpResponse;
 
 public class FakeStoreTest {
     public static String strResponse;

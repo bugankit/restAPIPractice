@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="project.FakeStore.testFile.FakeStoreTest" time="1.133" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="project.FakeStore.testFile.FakeStore.FakeStoreTest" time="1.827" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/ankit/Documents/Testing/SDET/REST API/restapi/target/surefire/surefirebooter15149922051152369069.jar /Users/ankit/Documents/Testing/SDET/REST API/restapi/target/surefire 2026-07-11T03-40-38_742-jvmRun1 surefire3750478375426969916tmp surefire_017427926389050279387tmp"/>
+    <property name="sun.java.command" value="/Users/ankit/Documents/Testing/SDET/REST API/restapi/target/surefire/surefirebooter12064179794003084236.jar /Users/ankit/Documents/Testing/SDET/REST API/restapi/target/surefire 2026-07-16T03-22-01_887-jvmRun1 surefire5883901866573662046tmp surefire_0700324083963949760tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="FakeStoreTest"/>
@@ -30,7 +30,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/ankit/Documents/Testing/SDET/REST API/restapi/target/surefire/surefirebooter15149922051152369069.jar"/>
+    <property name="surefire.real.class.path" value="/Users/ankit/Documents/Testing/SDET/REST API/restapi/target/surefire/surefirebooter12064179794003084236.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="21.0.8+12-LTS-250"/>
@@ -58,5 +58,5 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="loginUsingPojoToken" classname="project.FakeStore.testFile.FakeStoreTest" time="0.122"/>
+  <testcase name="loginUsingPojoToken" classname="project.FakeStore.testFile.FakeStore.FakeStoreTest" time="0.748"/>
 </testsuite>

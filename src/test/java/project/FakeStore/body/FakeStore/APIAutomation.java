@@ -1,6 +1,6 @@
-package project.FakeStore.body;
+package project.FakeStore.body.FakeStore;
 
-public class MobileAutomation {
+public class APIAutomation {
     private String courseTitle;
     private String price;
     public String getCourseTitle() {

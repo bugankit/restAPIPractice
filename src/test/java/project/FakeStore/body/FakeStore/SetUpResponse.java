@@ -1,4 +1,4 @@
-package project.FakeStore.body;
+package project.FakeStore.body.FakeStore;
 
 public class SetUpResponse {
 

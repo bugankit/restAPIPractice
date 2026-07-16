@@ -1,6 +1,6 @@
-package project.FakeStore.body;
+package project.FakeStore.body.FakeStore;
 
-public class WebAutomation {
+public class MobileAutomation {
     private String courseTitle;
     private String price;
     public String getCourseTitle() {
@@ -15,6 +15,4 @@ public class WebAutomation {
     public void setPrice(String price) {
         this.price = price;
     }
-
-
 }

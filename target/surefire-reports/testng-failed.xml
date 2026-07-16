@@ -3,12 +3,11 @@
 <suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="1" name="Surefire test(failed)" verbose="0">
     <classes>
-      <class name="project.FakeStore.testFile.FakeStoreTest">
+      <class name="project.Ecommerce.test.Register.Register">
         <methods>
-          <include name="setup"/>
-          <include name="loginUsingPojoToken"/>
+          <include name="validRegister" invocation-numbers="0"/>
         </methods>
-      </class> <!-- project.FakeStore.testFile.FakeStoreTest -->
+      </class> <!-- project.Ecommerce.test.Register.Register -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->
