@@ -68,7 +68,7 @@ public class LoginTest {
     }
 
     @DataProvider(name = "validLoginData")
-    public Object[][] getInvalidValidData(){
+    public Object[][] getvalidValidData(){
         return new Object[][]{
             {"GundiyaBhau_Jabba1@gmail.com", "Gunidya@123"}
         };
