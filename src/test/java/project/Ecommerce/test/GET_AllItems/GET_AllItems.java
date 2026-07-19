@@ -7,7 +7,6 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import io.restassured.http.ContentType;
-import io.restassured.path.json.JsonPath;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.specification.RequestSpecification;
 import project.Ecommerce.files.GET_AllProducts.Product;
@@ -56,9 +55,6 @@ public class GET_AllItems {
         message = respDes.getMessage();
 
         Assert.assertEquals(message, actualMessage);
-        
-        
-        
 
     }
 
@@ -108,9 +104,7 @@ public class GET_AllItems {
             System.out.println();        
 
 
-        }                            
-
-        
+        }                          
     }
 
     @DataProvider(name = "validData")
@@ -118,7 +112,5 @@ public class GET_AllItems {
         return new Object[][]{
             {"GundiyaBhau_Jabba1@gmail.com", "Gunidya@123"}
         };
-    }
-
-    
+    }    
 }
